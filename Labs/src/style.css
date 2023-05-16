@@ -1,0 +1,15 @@
+.header{
+   margin: auto; 
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   font-size: 20px;
+   background-color: #0A4D68;
+   padding: 10px;
+   font-family:monospace;
+   transition: color 0.3s ease;
+   text-decoration: none;
+}
+/* li{
+    text-decoration: none;
+} */
