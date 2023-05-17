@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    padding: 10px;
+    
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    padding: 0px 10px;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#B2A4FF , #FFB4B4,#FFDEB4,#F6FFDE);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottomleft:hover{
+    transition: all 4S;
+    transform: rotateY(360deg);
+}  
+.link{
+    color:#617A55;
+    text-decoration: none;
+}
+.link:hover{
+    color:inherit
+}
+.cont{
+    width: 40%;
+    background-color: #B2A4FF
+}
+
+.image{
+    border-radius: 50px;
+}
+.image:hover{
+    transition: all 1S;
+    transition-timing-function: ease-out;
+    opacity: 0.5
+}
